@@ -1,5 +1,5 @@
 /** @author Rob Nebeker 
- W07 Servlets
+ ** W07 Servlets
  */
 
 
@@ -11,10 +11,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author rnebeker
- */
 @WebServlet(name = "Servlet", urlPatterns={"/Servlet"})
 public class Servlet extends HttpServlet {
 
